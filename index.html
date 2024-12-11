@@ -4,14 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+<link rel="stylesheet" href="style.css">
+    <img src="laddu.jpg">
 </head>
 <body>
-    <h1> github day 1</h1>
-    <ul> 
-        <li> home </li>
-        <li> about us </li>
-      <li> contact us </li>
-      <li> details </li>
-    </ul>
+
+    <div class="contactcontainer">phone:987654321</div>
+    <div class="emailcontainer">email:abc@gmail.com</div>
+    <div class="websiteconatiner">www.shyammasupasal@gmail.com</div>
+<h1>Registration page</h1>
+<form>
+    <fieldset><legend>Personal info</legend>
+      <label  for="fname"> first name</label>
+        <input type="text" id="fname" name="first name"><br></br>
+        
+        <label for="lname"> lastname</label>
+         <input type="text" id="lname" name="last name"><br></br>
+        
+         <label for="pno">phone no</label>
+         <input type="number" id="pno" name="first name"><br></br>
+        
+         <label for="email">email</label>
+         
+         <input type="text" id="email" name="first name"><br></br>
+       </fieldset>
+
+         <label for="gender">Gender</label>
+            <input type="radio" id="male" name="gender" value="male">Male
+            <input type="radio" id="female" name="gender" value="female">Female
+            <input type="radio" id="other" name="gender" value="other">Other<br></br>
+
+            <label for="address">country</label><br>
+            <select id="country" name="country">
+                <option value="selectyourcountry" selected disabled>your country</option>
+<option value="nepal">NEPAL</option>
+<option value="nepal">PORTUGAL</option>
+<option value="nepal">CROATIA</option>
+<option value="nepal">BRAZIL</option>
+            </select><br>
+            <br>
+
+        <label for="Address">Address</label><br>
+        <textarea name="address" id="address" cols="30px" rows="5px"></textarea>
+<br>
+<br>
+        <button type="submit">Submit </button>
+ 
+
+
+</form>
 </body>
 </html>
